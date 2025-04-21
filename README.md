@@ -13,7 +13,7 @@ The Home Device Detector addresses accessibility barriers for DHH individuals in
 - Process audio locally for enhanced privacy and reduced latency
 
 
-![enclosure](image\enclosure.JPG)
+![enclosure](image\enclosure.png)
 
 
 ### Features
@@ -185,7 +185,9 @@ if (prediction_count >= EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW) {
     prediction_count = 0;
 }
 ```
+When device detects home device sound like doorbell, the serial monitor will print information shown below
 
+![test result](/image/serial%20monitor.png)
 
 ## Enclosure Design
 
