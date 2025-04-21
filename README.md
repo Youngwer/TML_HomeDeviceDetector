@@ -4,6 +4,10 @@
 
 This project implements an embedded sound recognition system that assists Deaf and hard of hearing (DHH) individuals by detecting and classifying critical household sounds (smoke alarms and doorbells) and providing visual alerts through LEDs.
 
+```markdown
+![avatar](/image/enclosure.JPG)
+```
+
 ## Project Overview
 
 The Home Device Detector addresses accessibility barriers for DHH individuals in smart homes by developing a TinyML-based embedded system that can:
@@ -13,7 +17,7 @@ The Home Device Detector addresses accessibility barriers for DHH individuals in
 - Provide immediate visual feedback through color-coded LED indicators
 - Process audio locally for enhanced privacy and reduced latency
 
-<img src="/img/device_photo.jpg" alt="Home Device Detector" style="zoom:25%;" />
+
 
 ### Features
 
