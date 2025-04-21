@@ -4,7 +4,7 @@
 
 This project implements an embedded sound recognition system that assists Deaf and hard of hearing (DHH) individuals by detecting and classifying critical household sounds (smoke alarms and doorbells) and providing visual alerts through LEDs.
 
-![enclosure](F:\Msc CE\deep learning\image\enclosure.JPG)
+![enclosure](image\enclosure.JPG)
 
 ## Project Overview
 
