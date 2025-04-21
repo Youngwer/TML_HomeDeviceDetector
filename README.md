@@ -12,8 +12,7 @@ The Home Device Detector addresses accessibility barriers for DHH individuals in
 - Provide immediate visual feedback through color-coded LED indicators💡
 - Process audio locally for enhanced privacy and reduced latency
 
-
-![enclosure](image\enclosure.png)
+![en](image/enclosure.png)
 
 
 ### Features
@@ -221,7 +220,7 @@ The 3D-printed enclosure was designed using Fusion 360 and includes:
 - UCL Centre for Advanced Spatial Analysis ([CASA](https://www.ucl.ac.uk/bartlett/casa))
 - Edge Impulse for the embedded machine learning platform
 - Arduino community for libraries and support
-- Online sound repositories (Pixabay, Uppbeat) for training data
+- Online sound repositories ([Pixabay](https://pixabay.com/sound-effects/), [Uppbeat](https://uppbeat.io/sfx)) for training data
 
 ## Author
 
