@@ -1,0 +1,58 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+ <!-- Background -->
+
+ <!-- Title -->
+ <!-- Input Layer -->
+ <!-- Reshape Layer -->
+ <!-- 1D Conv Layer 1 -->
+ <!-- Dropout Layer 1 -->
+ <!-- 1D Conv Layer 2 -->
+ <!-- Dropout Layer 2 -->
+ <!-- Flatten Layer -->
+ <!-- Dense Layer -->
+ <!-- Output Layer -->
+ <!-- Arrows -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="577" width="1278" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="null" x="1.999432" y="-42.001493" id="svg_1" ry="5" rx="5" fill="#f8f9fa" height="597.000023" width="800"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_2" font-weight="bold" text-anchor="middle" font-size="20" font-family="Arial" y="40" x="400">Neural Network Architecture for Home Device Detector</text>
+  <rect id="svg_3" ry="5" rx="5" stroke="#333" fill="#8b9ff5" height="45" width="600" y="2" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_4" fill="white" text-anchor="middle" font-size="16" font-family="Arial" y="30" x="400">Input layer (4,752 features)</text>
+  <rect id="svg_5" ry="5" rx="5" stroke="#333" fill="#f1f2f6" height="35" width="600" y="67" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_6" text-anchor="middle" font-size="16" font-family="Arial" y="90" x="400">Reshape layer (48 columns)</text>
+  <rect id="svg_7" ry="5" rx="5" stroke="#333" fill="#f1f2f6" height="35" width="600" y="122" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_8" text-anchor="middle" font-size="16" font-family="Arial" y="145" x="400">1D conv / pool layer (16 filters, 3 kernel size, 1 layer)</text>
+  <rect id="svg_9" ry="5" rx="5" stroke="#333" fill="#f1f2f6" height="35" width="600" y="177" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_10" text-anchor="middle" font-size="16" font-family="Arial" y="200" x="400">Dropout (rate 0.2)</text>
+  <rect id="svg_11" ry="5" rx="5" stroke="#333" fill="#f1f2f6" height="35" width="600" y="232" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_12" text-anchor="middle" font-size="16" font-family="Arial" y="255" x="400">1D conv / pool layer (32 filters, 2 kernel size, 1 layer)</text>
+  <rect id="svg_13" ry="5" rx="5" stroke="#333" fill="#f1f2f6" height="35" width="600" y="287" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_14" text-anchor="middle" font-size="16" font-family="Arial" y="310" x="400">Dropout (rate 0.2)</text>
+  <rect id="svg_15" ry="5" rx="5" stroke="#333" fill="#f1f2f6" height="35" width="600" y="342" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_16" text-anchor="middle" font-size="16" font-family="Arial" y="365" x="400">Flatten layer</text>
+  <rect id="svg_17" ry="5" rx="5" stroke="#333" fill="#f1f2f6" height="35" width="600" y="397" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_18" text-anchor="middle" font-size="16" font-family="Arial" y="420" x="400">Dense layer (32 neurons)</text>
+  <rect id="svg_19" ry="5" rx="5" stroke="#333" fill="#8c9eb5" height="45" width="600" y="452" x="100"/>
+  <text transform="matrix(1,0,0,1,0,0) " id="svg_20" fill="white" text-anchor="middle" font-size="16" font-family="Arial" y="480" x="400">Output layer (3 classes)</text>
+  <line id="svg_21" stroke-width="2" stroke="#333" y2="67" x2="400" y1="47" x1="400"/>
+  <polygon id="svg_22" fill="#333" points="400,67 395,57 405,57 "/>
+  <line id="svg_23" stroke-width="2" stroke="#333" y2="122" x2="400" y1="102" x1="400"/>
+  <polygon id="svg_24" fill="#333" points="400,122 395,112 405,112 "/>
+  <line id="svg_25" stroke-width="2" stroke="#333" y2="177" x2="400" y1="157" x1="400"/>
+  <polygon id="svg_26" fill="#333" points="400,177 395,167 405,167 "/>
+  <line id="svg_27" stroke-width="2" stroke="#333" y2="232" x2="400" y1="212" x1="400"/>
+  <polygon id="svg_28" fill="#333" points="400,232 395,222 405,222 "/>
+  <line id="svg_29" stroke-width="2" stroke="#333" y2="287" x2="400" y1="267" x1="400"/>
+  <polygon id="svg_30" fill="#333" points="400,287 395,277 405,277 "/>
+  <line id="svg_31" stroke-width="2" stroke="#333" y2="342" x2="400" y1="322" x1="400"/>
+  <polygon id="svg_32" fill="#333" points="400,342 395,332 405,332 "/>
+  <line id="svg_33" stroke-width="2" stroke="#333" y2="397" x2="400" y1="377" x1="400"/>
+  <polygon id="svg_34" fill="#333" points="400,397 395,387 405,387 "/>
+  <line id="svg_35" stroke-width="2" stroke="#333" y2="452" x2="400" y1="432" x1="400"/>
+  <polygon id="svg_36" fill="#333" points="400,452 395,442 405,442 "/>
+ </g>
+</svg>
