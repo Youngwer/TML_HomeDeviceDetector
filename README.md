@@ -44,6 +44,7 @@ The Home Device Detector addresses accessibility barriers for DHH individuals in
 - [Autodesk Fusion](https://www.autodesk.com/uk/products/fusion-360/overview?term=1-YEAR&tab=subscription) (for 3D modeling)
 - [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/)(for 3D printing)
 - [Edge Impulse](https://edgeimpulse.com/) Platform
+- Librarys like [ArduinoBLE](https://docs.arduino.cc/libraries/arduinoble/) and [PDM.h](https://github.com/adafruit/Adafruit_ZeroPDM)
 - Model library exported from Edge Impulse for [Home Device Detector](/ei-homedevicedetector-arduino-1.0.21.zip)
 
 ## Installation
